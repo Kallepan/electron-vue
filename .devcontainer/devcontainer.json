@@ -1,0 +1,26 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+	"name": "Node.js & TypeScript",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens",
+				"DavidAnson.vscode-markdownlint",
+				"GitHub.copilot-chat",
+				"GitHub.copilot",
+				"dbaeumer.vscode-eslint",
+				"Vue.volar",
+				"esbenp.prettier-vscode"
+			],
+			"settings": {
+				"editor.codeActionsOnSave": {
+					"source.fixAll": "explicit"
+				},
+				"editor.formatOnSave": true,
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+			}
+		}
+	}
+}
